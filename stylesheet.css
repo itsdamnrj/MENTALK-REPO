@@ -328,14 +328,15 @@ input:checked+.toggle-button::before {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
-    font-size: 14px;
-    font-weight: 500;
 }
 
-.post-activity div {
+.post-activity-link {
     display: flex;
     align-items: center;
+    position: relative;
+    margin: 12px 0;
+    font-size: 14px;
+    cursor: pointer;
 }
 
 .post-activity-link img {
@@ -471,8 +472,4 @@ input:checked+.toggle-button::before {
     box-shadow: inset 0px 3px 7px #b48626;
     transform: translateY(2px);
 }
-
-
-
-
 /* STARTING PAGE ----- END */
