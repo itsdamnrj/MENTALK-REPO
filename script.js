@@ -2,11 +2,11 @@ function generateNavBar() {
     return `
     <nav class="navbar">
         <div class="navbar-left">
-            <a href="index.html" class="logo"><img src="images/logo.png"></a>
+            <a href="index.php" class="logo"><img src="images/logo.png"></a>
         </div>
         <div class="navbar-right">
             <ul>
-                <li><a href="#" class="active-link"><img src="images/home.png"> <span>Home</span></a></li>
+                <li><a href="index.php" class="active-link"><img src="images/home.png"> <span>Home</span></a></li>
                 <li onclick="toggleMenu()"><a href="#"><img src="images/profile.png"> <span>My Profile</span></a></li>
             </ul>
         </div>
