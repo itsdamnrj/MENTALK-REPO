@@ -10,6 +10,7 @@ $query = "SELECT posts.id, posts.anonymous, users.displayname, posts.text, posts
           FROM user_post
           INNER JOIN users ON user_post.user_id = users.id
           INNER JOIN posts ON user_post.post_id = posts.id
+          WHERE username = '$username'
           ORDER BY posts.timestamp DESC";
 
 $result = mysqli_query($con, $query);
