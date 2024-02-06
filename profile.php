@@ -25,8 +25,12 @@
 
     <div class="container">
         <div class="main-content">
-            <div class="post" style="background-color: #e1a730; color: #f0f2f5;">
-                <h1 style="font-size: 30px;">Profile Info</h1>
+            <div class="profile-container" >
+            <div class="ds-top"></div>
+            <div class="avatar-holder">
+                <img src="https://raw.githubusercontent.com/itsdamnrj/MENTALK-REPO/main/images/profile-icon.png" alt="Profile Icon">
+            </div>
+                <h1>Profile Information</h1>
                 <div style="display: flex;">
                     <h3 style="font-weight: 500;">Username: <span id="username"><?php echo $user_data['username'];?></span></h3>
                     <a href="#" onclick="editField('username')" style="font-size: smaller; color:#fff; margin-left: 4px;"><sup style="text-decoration:underline;">Edit</sup></a>
@@ -41,7 +45,7 @@
                 </div>
             </div>
             <div>
-                <h1 style="margin-bottom: -10px; margin-top: 15px; font-size: 30px;">Post History:</h1>
+                <h1 style="margin-bottom: -10px; margin-top: 15px; font-size: 30px;">Recent Posts:</h1>
             </div>
             <div id="post_container"></div>
         </div>
