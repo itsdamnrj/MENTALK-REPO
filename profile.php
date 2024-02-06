@@ -28,7 +28,7 @@
             <div class="profile-container" >
             <div class="ds-top"></div>
             <div class="avatar-holder">
-                <img src="https://raw.githubusercontent.com/itsdamnrj/MENTALK-REPO/main/images/profile-icon.png" alt="Profile Icon">
+                <img src="images/profile-icon.png" alt="Profile Icon">
             </div>
                 <h1>Profile Information</h1>
                 <div style="display: flex;">
